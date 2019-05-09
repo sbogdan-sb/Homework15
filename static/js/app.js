@@ -30,6 +30,9 @@ function buildCharts(sample) {
       };
 
       var pieLayout = {  
+        height : 500,
+        width : 500,
+        margin : {'l': 0, 'r': 100, 't': 0, 'b': 0},
       };
 
       Plotly.newPlot("pie", [pieTrace], pieLayout);

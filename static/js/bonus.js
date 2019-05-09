@@ -1,6 +1,5 @@
 function buildWashGauge (sample) {
     d3.json('/metadata/' + sample).then(dict => {
-        console.log(dict.WFREQ);
 
         var level = dict.WFREQ;
 
