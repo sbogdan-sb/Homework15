@@ -51,7 +51,8 @@ function buildCharts(sample) {
       };
 
       var bubbleLayout = {
-        autosize : false,
+        // autosize : false,
+        title: "Bacteria Count by Type",
         height : 500,
         width : 1500
       };
