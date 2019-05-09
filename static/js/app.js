@@ -30,8 +30,8 @@ function buildCharts(sample) {
       };
 
       var pieLayout = {  
-        height : 500,
-        width : 500,
+        height : 600,
+        width : 600,
         margin : {'l': 0, 'r': 100, 't': 0, 'b': 0},
       };
 
