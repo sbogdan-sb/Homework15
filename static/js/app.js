@@ -52,7 +52,7 @@ function buildCharts(sample) {
 
       var bubbleLayout = {
         // autosize : false,
-        title: "Bacteria Count by Type",
+        title: "<b>Bacteria Count by Type</b>",
         height : 500,
         width : 1500
       };
