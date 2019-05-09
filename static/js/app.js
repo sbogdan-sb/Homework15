@@ -14,9 +14,7 @@ function buildMetadata(sample) {
     });
 
   });
-    
-    // BONUS: Build the Gauge Chart
-    // buildGauge(data.WFREQ);
+   
 }
 
 function buildCharts(sample) {
@@ -75,6 +73,7 @@ function init() {
     const firstSample = sampleNames[0];
     buildCharts(firstSample);
     buildMetadata(firstSample);
+    buildWashGauge(firstSample);
   });
 }
 
@@ -82,6 +81,7 @@ function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildCharts(newSample);
   buildMetadata(newSample);
+  buildWashGauge(newSample);
 }
 
 // Initialize the dashboard
