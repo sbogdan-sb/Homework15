@@ -10,7 +10,6 @@ function buildWashGauge (sample) {
         var x = radius * Math.cos(radians);
         var y = radius * Math.sin(radians);
 
-        // Path: may have to change to create a better triangle
         var mainPath = 'M -.0 -0.025 L .0 0.025 L ',
             pathX = String(x),
             space = ' ',
@@ -42,6 +41,7 @@ function buildWashGauge (sample) {
             type: 'pie',
             showlegend: false
         }];
+
 
         var layout = {
         shapes:[{
